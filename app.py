@@ -21,9 +21,9 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 app = Flask(__name__)
 
 FREEFIRE_UPDATE_URL = "https://client.ind.freefiremobile.com/UpdateSocialBasicInfo"
-MAJOR_LOGIN_URL = "https://loginbp.ggpolarbear.com/MajorLogin"
+MAJOR_LOGIN_URL = "https://loginbp.ppmainecoonghj.com/MajorLogin"
 OAUTH_URL = "https://100067.connect.garena.com/oauth/guest/token/grant"
-FREEFIRE_VERSION = "OB54"
+FREEFIRE_VERSION = "OB55"
 
 KEY = bytes([89, 103, 38, 116, 99, 37, 68, 69, 117, 104, 54, 37, 90, 99, 94, 56])
 IV = bytes([54, 111, 121, 90, 68, 114, 50, 50, 69, 51, 121, 99, 104, 106, 77, 37])
@@ -317,8 +317,8 @@ def combined_bio_upload():
     result = upload_bio_request(final_jwt, bio)
     
     response_data = {
-        "Credit": "Flexbase",
-        "Join For More": "Telegram: @Flexbasei",
+        "Credit": "KHAN",
+        "Join For More": "Telegram: @KHAN",
         "status": result["status"],
         "login_method": login_method,
         "code": result["code"],
